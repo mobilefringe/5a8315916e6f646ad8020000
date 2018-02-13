@@ -51,6 +51,9 @@
                                 </router-link>
                                 <li id="dropDown1" @click="toggleSubMenu('dropDown1')" class="menu_item">Events
                                     <ul :class="'submenu' + { show_submenu: showSubMenu1 }">
+                                        <router-link tag="li" to="/events" class="submenu_item" exact>
+                                            <a>Events</a>
+                                        </router-link>
                                         <router-link tag="li" to="/pages/cambridge-public-skating" class="submenu_item" exact>
                                             <a>Public Skating</a>
                                         </router-link>
