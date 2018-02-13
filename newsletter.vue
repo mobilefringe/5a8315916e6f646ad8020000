@@ -34,7 +34,7 @@
                                 </div>
                                 <div class="col-xs-12">
                                     <label for="fieldEmail">Email</label>
-                                    <input v-model="form_data.email" required class="form-control" id="fieldEmail" class="js-cm-email-input" name="cm-fituhu-fituhu" type="email" required /> 
+                                    <input v-model="form_data.email" required class="form-control" id="fieldEmail" name="cm-fituhu-fituhu" type="email"/> 
         
                                     <!--<label for="cm-iljuii-iljuii">Email</label>-->
                                     <!--<input v-model="form_data.email" required class="form-control" name="cm-iljuii-iljuii" type="email" placeholder="Email" id="newsletter_email">-->
