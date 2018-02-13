@@ -13,15 +13,15 @@
                     </span>
                 </div>    
             </div>
-            <div class="footer_search hidden_phone">
-                <search-component v-model="search" :list="processedStores" :suggestion-attribute="suggestionAttribute" @select="onOptionSelect">
-                    <template slot="item" scope="option">
-                        <article class="media">
-                            <p>{{ option.data.name }}</p>
-                        </article>
-                    </template>
-                </search-component>
-            </div>
+            <!--<div class="footer_search hidden_phone">-->
+            <!--    <search-component v-model="search" :list="processedStores" :suggestion-attribute="suggestionAttribute" @select="onOptionSelect">-->
+            <!--        <template slot="item" scope="option">-->
+            <!--            <article class="media">-->
+            <!--                <p>{{ option.data.name }}</p>-->
+            <!--            </article>-->
+            <!--        </template>-->
+            <!--    </search-component>-->
+            <!--</div>-->
         </section>
         <section class="footer_menu hidden_phone">
             <div class="main_container ">
