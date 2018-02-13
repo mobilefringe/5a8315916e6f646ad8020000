@@ -72,29 +72,29 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
                 social_media: [
                     {
                         name: "Facebook",
-                        url: "https://www.facebook.com",
+                        url: "https://www.facebook.com/Cambridge-Ice-Centre-247662008677319/",
                         iconClass: "fa fa-facebook-square"
                     },
-                    {
-                        name: "Twitter",
-                        url: "https://twitter.com",
-                        iconClass: "fa fa-twitter-square"
-                    },
-                    {
-                        name: "Instagram",
-                        url: "https://www.instagram.com",
-                        iconClass: "fa fa-instagram"
-                    },
-                    {
-                        name: "SnapChat",
-                        url: "",
-                        iconClass: "fa fa-snapchat-square"
-                    },
-                    {
-                        name: "YouTube",
-                        url: "https://www.youtube.com/",
-                        iconClass: "fa fa-youtube-square"
-                    }
+                    // {
+                    //     name: "Twitter",
+                    //     url: "https://twitter.com",
+                    //     iconClass: "fa fa-twitter-square"
+                    // },
+                    // {
+                    //     name: "Instagram",
+                    //     url: "https://www.instagram.com",
+                    //     iconClass: "fa fa-instagram"
+                    // },
+                    // {
+                    //     name: "SnapChat",
+                    //     url: "",
+                    //     iconClass: "fa fa-snapchat-square"
+                    // },
+                    // {
+                    //     name: "YouTube",
+                    //     url: "https://www.youtube.com/",
+                    //     iconClass: "fa fa-youtube-square"
+                    // }
                 ],
             }
         },
