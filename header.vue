@@ -26,7 +26,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="header_newsletter hidden-sm hidden-xs">
+                        <div class="header_newsletter">
                             <div class="header_newsletter_container">
                                 <input id="header_newsletter" class="newsletter_input" type="text" :placeholder='$t("header.newsletter-join")' v-model="newsletter_email"/>
                                 <router-link :to="'/newsletter?email='+ newsletter_email" >
