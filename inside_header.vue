@@ -73,7 +73,20 @@
                         return "Shinny Hockey"
                     } else if(this.$route.fullPath == "/pages/cambridge-figure-skating") {
                         return "Figure Skating"
-                    } else if(this.$route.fullPath == "/pages/cambridge-shinny-hockey") {
+                    } else if(this.$route.fullPath == "/pages/cambridge-leagues") {
+                        return "Leagues"
+                    } else if(this.$route.fullPath == "/pages/cambridge-lessons") {
+                        return "Lessons"
+                    } else if(this.$route.fullPath == "/pages/cambridge-hockey-loft") {
+                        return "Hockey Loft"
+                    } else if(this.$route.fullPath == "/pages/cambridge-cancellations") {
+                        return "Cancellations"
+                    } else if(this.$route.fullPath == "/pages/cambridge-accessibility") {
+                        return "Accessibility"
+                    } else if(this.$route.fullPath == "/pages/cambridge-rental-availability") {
+                        return "Rental Availability"
+                    } else if(this.$route.fullPath == "/pages/cambridge-advertising") {
+                        return "Advertising"
                     } else {
                         return this.$route.meta.pageName     
                     }
