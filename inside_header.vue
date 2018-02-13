@@ -69,6 +69,11 @@
                         return "Parties"
                     } else if(this.$route.fullPath == "/pages/cambridge-public-skating") {
                         return "Public Skating"
+                    } else if(this.$route.fullPath == "/pages/cambridge-shinny-hockey") {
+                        return "Shinny Hockey"
+                    } else if(this.$route.fullPath == "/pages/cambridge-figure-skating") {
+                        return "Figure Skating"
+                    } else if(this.$route.fullPath == "/pages/cambridge-shinny-hockey") {
                     } else {
                         return this.$route.meta.pageName     
                     }
