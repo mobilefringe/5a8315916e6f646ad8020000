@@ -46,29 +46,36 @@
                                 </span>
                             </div>
                             <ul>
-                                <li id="dropDown1" @click="toggleSubMenu('dropDown1')" class="menu_item">{{ $t("menu.store-directory") }}
+                                <router-link tag="li" to="/pages/cambridge-parties" class="menu_item" exact>
+                                    Parties
+                                </router-link>
+                                <li id="dropDown1" @click="toggleSubMenu('dropDown1')" class="menu_item">Events
                                     <ul :class="'submenu' + { show_submenu: showSubMenu1 }">
-                                        <router-link tag="li" to="/stores" class="submenu_item" exact>
-                                            <a>{{ $t("menu.stores") }}</a>
+                                        <router-link tag="li" to="/pages/cambridge-public-skating" class="submenu_item" exact>
+                                            <a>Public Skating</a>
                                         </router-link>
-                                        <router-link tag="li" to="/map" class="submenu_item" exact>
-                                            <a>{{ $t("menu.centre-map") }}</a>
+                                        <router-link tag="li" to="/pages/cambridge-shinny-hockey" class="submenu_item" exact>
+                                            <a>Shinny Hockey</a>
+                                        </router-link>
+                                        <router-link tag="li" to="	/pages/cambridge-figure-skating" class="submenu_item" exact>
+                                            <a>Figure Skating</a>
                                         </router-link>
                                     </ul>
                                 </li>
-                                <router-link tag="li" to="/events" class="menu_item" exact>
-                                    {{ $t("menu.events") }}
-                                </router-link>
-                                <router-link tag="li" to="/promotions" class="menu_item" exact>
-                                    {{ $t("menu.promotions") }}
-                                </router-link>
-                                <li id="dropDown2" @click="toggleSubMenu('dropDown2')" class="menu_item">{{ $t("menu.leasing") }}
+                                
+                                <!--<router-link tag="li" to="/promotions" class="menu_item" exact>-->
+                                <!--    {{ $t("menu.promotions") }}-->
+                                <!--</router-link>-->
+                                <li id="dropDown2" @click="toggleSubMenu('dropDown2')" class="menu_item">Leagues & Lessons
                                     <ul :class="'submenu' + { show_submenu: showSubMenu2 }">
-                                        <router-link tag="li" to="/pages/milton-leasing" class="submenu_item" exact>
-                                            <a>{{ $t("menu.leasing") }}</a>
+                                        <router-link tag="li" to="/pages/cambridge-leagues" class="submenu_item" exact>
+                                            <a>Leagues</a>
                                         </router-link>
-                                        <router-link tag="li" to="/photos" class="submenu_item" exact>
-                                            <a>{{ $t("menu.photos") }}</a>
+                                        <router-link tag="li" to="/pages/cambridge-lessons" class="submenu_item" exact>
+                                            <a>Lessons</a>
+                                        </router-link>
+                                        <router-link tag="li" to="/pages/cambridge-hockey-loft" class="submenu_item" exact>
+                                            <a>Hockey Loft</a>
                                         </router-link>
                                     </ul>
                                 </li>
