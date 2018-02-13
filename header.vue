@@ -26,15 +26,16 @@
                                 </span>
                             </div>
                         </div>
-                    </div>
-                    <div class="header_newsletter hidden-sm hidden-xs">
-                        <div class="header_newsletter_container">
-                            <input id="header_newsletter" class="newsletter_input" type="text" :placeholder='$t("header.newsletter-join")' v-model="newsletter_email"/>
-                            <router-link :to="'/newsletter?email='+ newsletter_email" >
-                                <input id="header_newsletter_submit" class="newsletter_btn" type="submit" :value='$t("header.newsletter-subscribe")' />
-                            </router-link>
+                        <div class="header_newsletter hidden-sm hidden-xs">
+                            <div class="header_newsletter_container">
+                                <input id="header_newsletter" class="newsletter_input" type="text" :placeholder='$t("header.newsletter-join")' v-model="newsletter_email"/>
+                                <router-link :to="'/newsletter?email='+ newsletter_email" >
+                                    <input id="header_newsletter_submit" class="newsletter_btn" type="submit" :value='$t("header.newsletter-subscribe")' />
+                                </router-link>
+                            </div>
                         </div>
                     </div>
+                    
                     <transition name="custom-classes-transition" enter-active-class="animated slideInRight" leave-active-class="animated slideOutRight">
                         <nav id="primary_nav" v-if="show_menu" v-on:keyup.esc="show_menu = false">
                             <div class="todays_hours" v-if="todays_hours">
