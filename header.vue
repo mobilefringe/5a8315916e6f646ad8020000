@@ -57,7 +57,7 @@
                                         <router-link tag="li" to="/pages/cambridge-shinny-hockey" class="submenu_item" exact>
                                             <a>Shinny Hockey</a>
                                         </router-link>
-                                        <router-link tag="li" to="	/pages/cambridge-figure-skating" class="submenu_item" exact>
+                                        <router-link tag="li" to="/pages/cambridge-figure-skating" class="submenu_item" exact>
                                             <a>Figure Skating</a>
                                         </router-link>
                                     </ul>
