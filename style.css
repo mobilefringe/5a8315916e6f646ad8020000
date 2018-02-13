@@ -328,9 +328,9 @@ footer {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    div {
-        min-width: 180px;
-    }
+    // div {
+    //     min-width: 180px;
+    // }
     .site_logo {
         width: 58px;
     }
