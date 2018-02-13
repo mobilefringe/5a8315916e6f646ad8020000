@@ -21,20 +21,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                    <form id="subForm" class="js-cm-form" action="https://mobilefringe.createsend.com/t/d/s/fituhu/" method="post" data-id="">
-    
-    <p>
-        <label for="fieldName">Name</label><br />
-        <input id="fieldName" name="cm-name" type="text" />
-    </p>
-    <p>
-        <label for="fieldEmail">Email</label><br />
-        <input id="fieldEmail" class="js-cm-email-input" name="cm-fituhu-fituhu" type="email" required /> 
-    </p>
-    <p>
-        <button class="js-cm-submit-button" type="submit">Subscribe</button> 
-    </p>
-</form>
+
     
                         <form class="form-horizontal" action="https://mobilefringe.createsend.com/t/d/s/fituhu/" method="post" @submit.prevent="validateBeforeSubmit">
                             <div class="row">
