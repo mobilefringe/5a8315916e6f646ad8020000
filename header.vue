@@ -85,6 +85,19 @@
                                         </router-link>
                                     </ul>
                                 </li>
+                                <li id="dropDown4" @click="toggleSubMenu('dropDown4')" class="menu_item">Contact Us
+                                    <ul :class="'submenu' + { show_submenu: showSubMenu4 }">
+                                        <router-link tag="li" to="/hours" class="submenu_item" exact>
+                                            <a>Centre Hours</a>
+                                        </router-link>
+                                        <router-link tag="li" to="/pages/cambridge-rental-availability" class="submenu_item" exact>
+                                            <a>Rental Availability</a>
+                                        </router-link>
+                                        <router-link tag="li" to="/pages/cambridge-advertising" class="submenu_item" exact>
+                                            <a>Advertising</a>
+                                        </router-link>
+                                    </ul>
+                                </li>
                             </ul>
                             <div class="mobile_social_icons">
                                 <span v-for="item in social_media">
