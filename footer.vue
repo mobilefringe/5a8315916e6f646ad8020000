@@ -26,10 +26,10 @@
         <section class="footer_menu hidden_phone">
             <div class="main_container ">
                 <ul class="footer_site_map hidden_phone">
-                    <router-link tag="li" to="/stores" exact>
+                    <router-link tag="li" to="/pages/cambridge-privacy-policy" exact>
                         <a>Privacy Policy</a>
                     </router-link>
-                    <router-link tag="li" to="/events" exact>
+                    <router-link tag="li" to="/pages/cambridge-terms-conditions" exact>
                         <a>Terms & Conditions</a>
                     </router-link>  
                     <router-link tag="li" to="/jobs" exact>
