@@ -127,7 +127,8 @@
                     show_menu: true,
                     showSubMenu1: false,
                     showSubMenu2: false,
-                    showSubMenu3: false
+                    showSubMenu3: false,
+                    showSubMenu4: false
                 }
             },
             props:['social_media'],
@@ -191,6 +192,7 @@
                     this.showSubMenu1 = false;
                     this.showSubMenu2 = false;
                     this.showSubMenu3 = false;
+                    this.showSubMenu4 = false;
                     
                     if(id == "dropDown1"){
                         this.showSubMenu1 = true   
@@ -198,6 +200,8 @@
                         this.showSubMenu2 = true 
                     } else if (id == "dropDown3"){
                         this.showSubMenu3 = true 
+                    } else if (id == "dropDown4"){
+                        this.showSubMenu4 = true 
                     }
                     
                 }
