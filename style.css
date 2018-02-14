@@ -306,6 +306,10 @@ header {
 #primary_nav ul ul a {
 	padding: 10px 5px;
 	line-height: 120%;
+	transition: color 0.3s ease;
+	&:hover {
+	    color: $primary;
+	}
 }
 #primary_nav ul .menu_item:hover > ul {
 	display: block;
