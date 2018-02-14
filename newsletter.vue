@@ -12,7 +12,8 @@
                         <p class="directory_content">
                             {{ property.name }}<br/>
                             {{ property.address1 }}<br/>
-                            {{ property.city }}, {{ property.province_state }} {{ property.postal_code }}
+                            {{ property.city }}, {{ property.province_state }}<br/> 
+                            {{ property.postal_code }}
                         </p>
                     </div>
                     <div class="hidden-lg hidden-md visible-sm-block visible-xs-block">
