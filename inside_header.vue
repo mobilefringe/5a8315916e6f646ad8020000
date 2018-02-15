@@ -89,6 +89,8 @@
                         return "Advertising"
                     } else if(this.$route.fullPath == "/pages/cambridge-privacy-policy") {
                         return "Privacy Policy"
+                    } else if(this.$route.fullPath == "/pages/cambridge-terms-conditions") {
+                        return "Terms & Conditions"
                     } else {
                         return this.$route.meta.pageName     
                     }
