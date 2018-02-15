@@ -43,7 +43,7 @@
         </section>
         <section class="footer_privacy">
             <div class="main_container">
-                <p class="footer_desc">&#169; {{copyright_year}} {{property.name}} | {{ $t("footer.powered-by") }} <a href="//mallmaverick.com" target="_blank">Mall Maverick</a></p>
+                <p class="footer_desc">&#169; {{copyright_year}} {{property.name}} | Powered By <a href="//mallmaverick.com" target="_blank">Mall Maverick</a></p>
             </div>
         </section>
     </footer>
