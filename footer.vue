@@ -31,7 +31,7 @@
                     <!--</router-link>-->
                     <li>
                         <a href="https://www.morguard.com/privacy/" target="_blank">Privacy Policy</a>
-                    </router-link>
+                    </li>
                     <router-link tag="li" to="/pages/cambridge-terms-conditions" exact>
                         <a>Terms & Conditions</a>
                     </router-link>  
