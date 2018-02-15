@@ -87,6 +87,8 @@
                         return "Rental Availability"
                     } else if(this.$route.fullPath == "/pages/cambridge-advertising") {
                         return "Advertising"
+                    } else if(this.$route.fullPath == "/pages/cambridge-privacy-policy") {
+                        return "Privacy Policy"
                     } else {
                         return this.$route.meta.pageName     
                     }
