@@ -67,9 +67,9 @@
                                 </li>
                                 <li id="dropDown2" @click="toggleSubMenu('dropDown2')" class="menu_item">Leagues & Lessons
                                     <ul :class="'submenu' + { show_submenu: showSubMenu2 }">
-                                        <router-link tag="li" to="/pages/cambridge-leagues" class="submenu_item" exact>
-                                            <a>Leagues</a>
-                                        </router-link>
+                                        <li>
+                                            <a href="https://thehockeyloft.ca/" target="_blank">Leagues</a>
+                                        </li>
                                         <router-link tag="li" to="/pages/cambridge-lessons" class="submenu_item" exact>
                                             <a>Lessons</a>
                                         </router-link>
