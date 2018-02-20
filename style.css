@@ -41,7 +41,7 @@ h2 {
     line-height: 41px;
 }
 a {
-    color: inherit;
+    color: $secondary;
     transition: color 0.3s ease;
     &:hover {
         color: $primary;
