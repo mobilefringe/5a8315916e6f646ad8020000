@@ -2,7 +2,7 @@
     <footer>
         <section class="footer_logo">
             <div>
-                <img alt="Property Logo" class="site_logo" src="//codecloud.cdn.speedyrails.net/sites/5a69eb436e6f644297010000/image/png/1517945546000/Group 4@2x.png"/>    
+                <img alt="Property Logo" class="site_logo" src="//codecloud.cdn.speedyrails.net/sites/5a8315916e6f646ad8020000/image/jpeg/1519143936000/CIC-Logo.jpg"/>    
             </div>
             <div class="footer_social">
                 <div class="social_icons">
