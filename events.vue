@@ -18,8 +18,8 @@
                         <p class="dates" v-if="isMultiDayEvent(event)">{{ event.start_date | moment("MMM D", timezone)}} to {{ event.end_date | moment("MMM D", timezone)}}</p>
                         <p class="dates" v-else>{{ event.start_date | moment("MMM D", timezone)}}</p>
                         <div class="event_desc">{{ event.description }}</div>
-                        <router-link :to="{ name: 'eventDetails', params: { id: event.slug }}">
-                            <a class="read_more">Read More</a>
+                        <router-link class="read_more" :to="{ name: 'eventDetails', params: { id: event.slug }}">
+                            <p >Read More</p> <!-- class="read_more" -->
                         </router-link>
                     </div>
                 </div>  
