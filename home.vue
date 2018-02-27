@@ -52,8 +52,7 @@
                 <div class="main_container">
                     <div v-if="featureItems" class="feature_item_container">
                         <div v-for="item in featureItems" class="feature_item">
-                            <img :src="item.image_url" />
-                            <!--<img src="//codecloud.cdn.speedyrails.net/sites/5a8315916e6f646ad8020000/image/png/1518461604000/Stores Directory.png" />-->
+                            <img :src="item.image_url"  :alt="item.name"/>
                         </div>
                     </div>
                     <div class="row home_map_container hidden-lg hidden-md visible-sm-block visible-xs-block">
