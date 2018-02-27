@@ -8,11 +8,8 @@
                         <div v-if="homeBanners" v-for="banner in homeBanners">
                             <router-link v-if="banner.url" :to="banner.url" class="">
                                 <div class="banner_image" v-bind:style="{ backgroundImage: 'url(' + banner.image_url + ')' }"></div>
-                                <!--<div class="banner_image" v-bind:style="{ backgroundImage: 'url(http://placehold.it/1920x400)' }"></div>-->
-                               
                             </router-link>
                             <div v-else class="banner_image" v-bind:style="{ backgroundImage: 'url(' + banner.image_url + ')' }"></div>
-                            <!--<div v-else class="banner_image" v-bind:style="{ backgroundImage: 'url(http://placehold.it/1920x400)' }"></div>-->
                         </div>
                     </slick>
                     <div class="home_banner_wrapper">
@@ -55,8 +52,8 @@
                 <div class="main_container">
                     <div v-if="featureItems" class="feature_item_container">
                         <div v-for="item in featureItems" class="feature_item">
-                            <!--<img :src="item.image_url" />-->
-                            <img src="//codecloud.cdn.speedyrails.net/sites/5a8315916e6f646ad8020000/image/png/1518461604000/Stores Directory.png" />
+                            <img :src="item.image_url" />
+                            <!--<img src="//codecloud.cdn.speedyrails.net/sites/5a8315916e6f646ad8020000/image/png/1518461604000/Stores Directory.png" />-->
                         </div>
                     </div>
                     <div class="row home_map_container hidden-lg hidden-md visible-sm-block visible-xs-block">
