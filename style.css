@@ -132,7 +132,7 @@ header {
     align-items: flex-end; 
 }
 .site_logo {
-    width: 116px;
+    width: 300px;
     img {
         max-width: 100%;
     }
