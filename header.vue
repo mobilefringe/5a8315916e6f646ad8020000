@@ -67,15 +67,15 @@
                                 </li>
                                 <li id="dropDown2" @click="toggleSubMenu('dropDown2')" class="menu_item">Leagues & Lessons
                                     <ul :class="'submenu' + { show_submenu: showSubMenu2 }">
-                                        <li>
-                                            <a href="https://thehockeyloft.ca/" target="_blank">Leagues</a>
-                                        </li>
+                                        <router-link tag="li" to="/pages/cambridge-leagues" class="submenu_item" exact>
+                                            <a>Leagues</a>
+                                        </router-link>
                                         <router-link tag="li" to="/pages/cambridge-lessons" class="submenu_item" exact>
                                             <a>Lessons</a>
                                         </router-link>
-                                        <router-link tag="li" to="/pages/cambridge-hockey-loft" class="submenu_item" exact>
-                                            <a>Hockey Loft</a>
-                                        </router-link>
+                                        <li>
+                                            <a href="https://thehockeyloft.ca/" target="_blank">Hockey Loft</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li id="dropDown3" @click="toggleSubMenu('dropDown3')" class="menu_item">News
