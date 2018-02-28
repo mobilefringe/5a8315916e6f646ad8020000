@@ -52,7 +52,9 @@
                 <div class="main_container">
                     <div v-if="featureItems" class="feature_item_container">
                         <div v-for="item in featureItems" class="feature_item">
-                            <img :src="item.image_url"  :alt="item.name"/>
+                            <router-link :to="item.url" class="">
+                                <img :src="item.image_url"  :alt="item.name"/>
+                            </router-link>
                         </div>
                     </div>
                     <div class="row home_map_container hidden-lg hidden-md visible-sm-block visible-xs-block">
