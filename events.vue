@@ -14,7 +14,9 @@
                         <img v-lazy="event.image_url" :alt="event.name"/>
                     </div>
                     <div class="event_right">
-                        <h2 class="event_name">{{ event.name }}</h2>
+                        <router-link :to="{ name: 'eventDetails', params: { id: event.slug }}">
+                            <h2 class="event_name">{{ event.name }}</h2>
+                        </router-link>
                         <p class="dates" v-if="isMultiDayEvent(event)">{{ event.start_date | moment("MMM D", timezone)}} to {{ event.end_date | moment("MMM D", timezone)}}</p>
                         <p class="dates" v-else>{{ event.start_date | moment("MMM D", timezone)}}</p>
                         <div class="event_desc">{{ event.description }}</div>
