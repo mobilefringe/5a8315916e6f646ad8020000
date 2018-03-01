@@ -2,7 +2,7 @@
     <footer>
         <section class="footer_logo">
             <div>
-                <img alt="Property Logo" class="site_logo" src="//codecloud.cdn.speedyrails.net/sites/5a8315916e6f646ad8020000/image/png/1519753912000/logo-05.png"/>    
+                <img alt="Property Logo" class="site_logo" src="//codecloud.cdn.speedyrails.net/sites/5a8315916e6f646ad8020000/image/png/1519935359000/logo.png"/>    
             </div>
             <div class="footer_social">
                 <div class="social_icons">
@@ -50,34 +50,5 @@
 </template>
 
 <script>
-    define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "vue!search-component"], function (Vue, Vuex, moment, tz, VueMoment, SearchComponent) {
-        return Vue.component("footer-component", {
-            template: template, // the variable template will be injected,
-            data: function data() {
-                return {
-                    suggestionAttribute: 'name',
-                    search: '',    
-                }
-            },
-            props:['social_media'],
-            computed: {
-                ...Vuex.mapGetters([
-                    'property',
-                    'processedStores'
-                ]),
-                copyright_year() {
-                    return moment().year();
-                }
-            },
-            methods: {
-                onOptionSelect(option) {
-                    console.log('Selected option:', option);
-                    this.$nextTick(function() {
-                        this.search = ""
-                    });
-                    this.$router.push("/stores/" + option.slug);
-                }
-            }
-        });
-    });
+var _extends=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var o in n)Object.prototype.hasOwnProperty.call(n,o)&&(e[o]=n[o])}return e};define(["Vue","vuex","moment","moment-timezone","vue-moment","vue!search-component"],function(e,t,n){return e.component("footer-component",{template:template,data:function(){return{suggestionAttribute:"name",search:""}},props:["social_media"],computed:_extends({},t.mapGetters(["property","processedStores"]),{copyright_year:function(){return n().year()}}),methods:{onOptionSelect:function(e){console.log("Selected option:",e),this.$nextTick(function(){this.search=""}),this.$router.push("/stores/"+e.slug)}}})});
 </script>
