@@ -120,6 +120,7 @@ hr{
 header {
    margin-top: 20px;
    margin-bottom: 20px; 
+   background-color: #eee;
 }
 .logo_container {
     display: -webkit-box;
