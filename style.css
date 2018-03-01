@@ -1391,7 +1391,9 @@ footer {
     	left: auto;
     	transform: none;
     	background: none;
-    	color: $secondary;
+    	a {
+    	    color: $secondary;
+    	}
     }
     #primary_nav ul ul.show_submenu {
         display: block;
