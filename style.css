@@ -133,7 +133,7 @@ header {
     align-items: flex-end; 
 }
 .site_logo {
-    width: 150px;
+    width: 300px;
     img {
         max-width: 100%;
     }
