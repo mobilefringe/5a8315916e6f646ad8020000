@@ -1377,12 +1377,7 @@ footer {
     }
     #primary_nav ul .menu_item {
         margin: 0 auto;
-    // 	padding: 5px 0;
-        // width: 130px;
         display: block;
-    // 	position: relative;
-        // text-align: center;
-        // text-transform: uppercase;
     }
     #primary_nav ul .menu_item:hover {
     	background: none;
@@ -1396,6 +1391,7 @@ footer {
     	left: auto;
     	transform: none;
     	background: none;
+    	color: $secondary;
     }
     #primary_nav ul ul.show_submenu {
         display: block;
