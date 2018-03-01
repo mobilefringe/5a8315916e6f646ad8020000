@@ -1400,6 +1400,17 @@ footer {
     #primary_nav ul ul.show_submenu {
         display: block;
     }
+    #primary_nav ul ul .submenu_item {
+    	margin: 0 auto;
+    }
+    // #primary_nav ul ul a {
+    // 	padding: 10px 15px;
+    // 	line-height: 120%;
+    // }
+    // #primary_nav ul .menu_item:hover > ul {
+    // 	display: block;
+    // 	z-index: 99;
+    // }
     .inside_header_background {
         margin-bottom: 20px;
         height: 100px;
