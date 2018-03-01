@@ -118,9 +118,8 @@ hr{
 }
 /* *** HEADER *** */
 header {
-   margin-top: 00px;
-   margin-bottom: 00px; 
-   background-color: 000;
+   margin-top: 20px;
+   margin-bottom: 20px; 
 }
 .logo_container {
     display: -webkit-box;
