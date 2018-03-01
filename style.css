@@ -1393,10 +1393,9 @@ footer {
     	display: none;
     	position: initial;
     	top: 100%;
-    // 	left: 0;
+    	left: auto;
+    	transform: none;
     	background: none;
-    // 	font-size: 14px;
-    // 	text-transform: none;
     }
     #primary_nav ul ul.show_submenu {
         display: block;
