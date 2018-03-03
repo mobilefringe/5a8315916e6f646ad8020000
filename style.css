@@ -1392,6 +1392,7 @@ footer {
     	transform: none;
     	background: none;
     	a {
+    	    padding: 12px 0;
     	    color: $secondary;
     	}
     }
