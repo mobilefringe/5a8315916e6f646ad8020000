@@ -169,7 +169,7 @@
                     'property',
                     'timezone',
                     'hours',
-                    'getTodayHours',
+                    'getTodayHours'
                 ]),
                 locale: {
                     get () {
