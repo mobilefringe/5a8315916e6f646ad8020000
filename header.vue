@@ -92,7 +92,8 @@
                                     </ul>
                                 </li>
                                 <li id="dropDown4" @click="toggleSubMenu('dropDown4')" class="menu_item">Contact Us
-                                    <ul :class="'submenu' + { show_submenu: showSubMenu4 }">
+                                    <!--<ul :class="'submenu' + { show_submenu: showSubMenu4 }">-->
+                                    <ul :class="{ show_submenu: showSubMenu4 }">
                                         <router-link tag="li" to="/hours" class="submenu_item" exact>
                                             <a>Centre Hours</a>
                                         </router-link>
