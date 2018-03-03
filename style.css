@@ -1367,6 +1367,7 @@ footer {
         z-index: 999;
         overflow-x: scroll;
         background: #FFF;
+        font-size: 18px;
     }
     #primary_nav ul {
         color: $primary;
