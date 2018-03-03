@@ -50,7 +50,6 @@
                                     Parties
                                 </router-link>
                                 <li id="dropDown1" @click="toggleSubMenu('dropDown1')" class="menu_item">Events
-                                    <!--<ul :class="'submenu' + { show_submenu: showSubMenu1 }">-->
                                     <ul :class="{ show_submenu: showSubMenu1 }">
                                         <router-link tag="li" to="/events" class="submenu_item" exact>
                                             <a>Events</a>
@@ -67,7 +66,6 @@
                                     </ul>
                                 </li>
                                 <li id="dropDown2" @click="toggleSubMenu('dropDown2')" class="menu_item">Leagues & Lessons
-                                    <!--<ul :class="'submenu' + { show_submenu: showSubMenu2 }">-->
                                     <ul :class="{ show_submenu: showSubMenu2 }">
                                         <router-link tag="li" to="/pages/cambridge-leagues" class="submenu_item" exact>
                                             <a>Leagues</a>
@@ -81,7 +79,6 @@
                                     </ul>
                                 </li>
                                 <li id="dropDown3" @click="toggleSubMenu('dropDown3')" class="menu_item">News
-                                    <!--<ul :class="'submenu' + { show_submenu: showSubMenu3 }">-->
                                     <ul :class="{ show_submenu: showSubMenu3 }">
                                         <router-link tag="li" to="/pages/cambridge-cancellations" class="submenu_item" exact>
                                             <a>Cancellations</a>
@@ -92,7 +89,6 @@
                                     </ul>
                                 </li>
                                 <li id="dropDown4" @click="toggleSubMenu('dropDown4')" class="menu_item">Contact Us
-                                    <!--<ul :class="'submenu' + { show_submenu: showSubMenu4 }">-->
                                     <ul :class="{ show_submenu: showSubMenu4 }">
                                         <router-link tag="li" to="/hours" class="submenu_item" exact>
                                             <a>Centre Hours</a>
