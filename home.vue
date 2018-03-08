@@ -43,7 +43,7 @@
                             </div>
                         </div>
                         <div class="home_stores">
-                            <a href="" target="_blank">
+                            <a href="https://goo.gl/maps/tH1ebHw4hUH2" target="_blank">
                                 <h2>{{ $t("home.stores-title") }}</h2>
                             </a>
                         </div>
