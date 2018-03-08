@@ -49,11 +49,8 @@
                                 <router-link tag="li" to="/pages/cambridge-parties" class="menu_item" exact>
                                     Parties
                                 </router-link>
-                                <li id="dropDown1" @click="toggleSubMenu('dropDown1')" class="menu_item">Events
+                                <li id="dropDown1" @click="toggleSubMenu('dropDown1')" class="menu_item">Programs
                                     <ul :class="{ show_submenu: showSubMenu1 }">
-                                        <router-link tag="li" to="/events" class="submenu_item" exact>
-                                            <a>Events</a>
-                                        </router-link>
                                         <router-link tag="li" to="/pages/cambridge-public-skating" class="submenu_item" exact>
                                             <a>Public Skating</a>
                                         </router-link>
@@ -80,6 +77,9 @@
                                 </li>
                                 <li id="dropDown3" @click="toggleSubMenu('dropDown3')" class="menu_item">News
                                     <ul :class="{ show_submenu: showSubMenu3 }">
+                                        <router-link tag="li" to="/events" class="submenu_item" exact>
+                                            <a>Events</a>
+                                        </router-link>
                                         <router-link tag="li" to="/pages/cambridge-cancellations" class="submenu_item" exact>
                                             <a>Cancellations</a>
                                         </router-link>
@@ -88,7 +88,7 @@
                                         </router-link>
                                     </ul>
                                 </li>
-                                <li id="dropDown4" @click="toggleSubMenu('dropDown4')" class="menu_item">Contact Us
+                                <li id="dropDown4" @click="toggleSubMenu('dropDown4')" class="menu_item">Centre Info
                                     <ul :class="{ show_submenu: showSubMenu4 }">
                                         <router-link tag="li" to="/hours" class="submenu_item" exact>
                                             <a>Centre Hours</a>
@@ -96,8 +96,11 @@
                                         <router-link tag="li" to="/pages/cambridge-rental-availability" class="submenu_item" exact>
                                             <a>Rental Availability</a>
                                         </router-link>
-                                        <router-link tag="li" to="/pages/cambridge-advertising" class="submenu_item" exact>
+                                        <router-link tag="li" to="/contact-us" class="submenu_item" exact>
                                             <a>Advertising</a>
+                                        </router-link>
+                                        <router-link tag="li" to="/hours" class="submenu_item" exact>
+                                            <a>Contact Us</a>
                                         </router-link>
                                     </ul>
                                 </li>
