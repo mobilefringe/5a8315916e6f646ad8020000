@@ -99,7 +99,7 @@
                                         <router-link tag="li" to="/pages/cambridge-advertising" class="submenu_item" exact>
                                             <a>Advertising</a>
                                         </router-link>
-                                        <router-link tag="li" to="/contact-us" class="submenu_item" exact>
+                                        <router-link tag="li" to="/pages/cambridge-contact-us" class="submenu_item" exact>
                                             <a>Contact Us</a>
                                         </router-link>
                                     </ul>
