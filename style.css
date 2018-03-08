@@ -453,19 +453,24 @@ footer {
         }
     }
 }
+.footer_management {
+    .footer_logo {
+        max-width: 90px;
+    }
+}
 .footer_privacy {
     background: #000;
     color: #FFF;
     text-align: center;
-    .footer_desc {
-        margin: 0;
-        padding: 5px 0;
-        font-family: 'Maven Pro', sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-        a {
-            color: inherit;
-        }
+}
+.footer_desc {
+    margin: 0;
+    padding: 5px 0;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    a {
+        color: inherit;
     }
 }
 /* *** HOME *** */
