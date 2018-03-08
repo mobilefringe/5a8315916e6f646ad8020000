@@ -43,9 +43,9 @@
                             </div>
                         </div>
                         <div class="home_stores">
-                            <router-link tag="h2" to="/stores" exact>
-                                <a>{{ $t("home.stores-title") }}</a>
-                            </router-link>
+                            <a href="" target="_blank">
+                                <h2>{{ $t("home.stores-title") }}</h2>
+                            </a>
                         </div>
                     </div>
                 </div>
