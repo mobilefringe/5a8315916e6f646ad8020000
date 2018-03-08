@@ -4,34 +4,34 @@ define([], function () {
             path: '/',
             component: view('home')
         },
-        {
-            path: '/contact-us',
-            component: view('default'),
-            children: [
-                {
-                    path: '',
-                    component: view('contact'),
-                    meta: {
-                        pageName: 'Contact Us',
-                    },
-                    name: 'contact'
-                }
-            ]
-        },
-        {
-            path: '/directions',
-            component: view('default'),
-            children: [
-                {
-                    path: '',
-                    component: view('directions'),
-                    meta: {
-                        pageName: 'Find Us',
-                    },
-                    name: 'directions'
-                }
-            ]
-        },
+        // {
+        //     path: '/contact-us',
+        //     component: view('default'),
+        //     children: [
+        //         {
+        //             path: '',
+        //             component: view('contact'),
+        //             meta: {
+        //                 pageName: 'Contact Us',
+        //             },
+        //             name: 'contact'
+        //         }
+        //     ]
+        // },
+        // {
+        //     path: '/directions',
+        //     component: view('default'),
+        //     children: [
+        //         {
+        //             path: '',
+        //             component: view('directions'),
+        //             meta: {
+        //                 pageName: 'Find Us',
+        //             },
+        //             name: 'directions'
+        //         }
+        //     ]
+        // },
         {
             path: '/events',
             component: view('default'),
@@ -92,34 +92,34 @@ define([], function () {
                 }
             ]
         },
-        {
-            path: '/leasing',
-            component: view('default'),
-            children: [
-                {   
-                    path: '',
-                    component: view('page_details'),
-                    meta: {
-                        pageName: 'Leasing',
-                    },
-                    name: 'pageDetails'
-                }
-            ]
-        },
-        {
-            path: '/map',
-            component: view('default'),
-            children: [
-                {   
-                    path: '',
-                    component: view('map'),
-                    meta: {
-                        pageName: 'Centre Map',
-                    },
-                    name: 'map'
-                }
-            ]
-        },
+        // {
+        //     path: '/leasing',
+        //     component: view('default'),
+        //     children: [
+        //         {   
+        //             path: '',
+        //             component: view('page_details'),
+        //             meta: {
+        //                 pageName: 'Leasing',
+        //             },
+        //             name: 'pageDetails'
+        //         }
+        //     ]
+        // },
+        // {
+        //     path: '/map',
+        //     component: view('default'),
+        //     children: [
+        //         {   
+        //             path: '',
+        //             component: view('map'),
+        //             meta: {
+        //                 pageName: 'Centre Map',
+        //             },
+        //             name: 'map'
+        //         }
+        //     ]
+        // },
         {
             path: '/newsletter',
             component: view('default'),
@@ -146,66 +146,66 @@ define([], function () {
                 }
             ]
         },
-        {
-            path: '/photos',
-            component: view('default'),
-            children: [
-                {   
-                    path: '',
-                    component: view('photos'),
-                    meta: {
-                        pageName: 'Photos',
-                    },
-                    name: 'photos'
-                }
-            ]
-        },
-        {
-            path: '/promotions',
-            component: view('default'),
-            children: [
-                {
-                    path: '',
-                    component: view('promotions'),
-                    meta: {
-                        pageName: 'Promotions',
-                    },
-                    name: 'promotions'
-                },
-                {
-                    path: ':id',
-                    component: view('promotion_details'),
-                    meta: {
-                        pageName: 'Promotions',
-                    },
-                    name: 'promotionDetails',
-                    props: true
-                }
-            ]
-        },
-        {
-            path: '/stores',
-            component: view('default'),
-            children: [
-                {   
-                    path: '',
-                    component: view('stores'),
-                    meta: {
-                        pageName: 'Store Directory',
-                    },
-                    name: 'storeList'
-                },
-                {
-                    path: ':id',
-                    component: view('store_details'),
-                    meta: {
-                        pageName: 'Store Details',
-                    },
-                    name: 'storeDetails',
-                    props: true
-                }
-            ]
-        },
+        // {
+        //     path: '/photos',
+        //     component: view('default'),
+        //     children: [
+        //         {   
+        //             path: '',
+        //             component: view('photos'),
+        //             meta: {
+        //                 pageName: 'Photos',
+        //             },
+        //             name: 'photos'
+        //         }
+        //     ]
+        // },
+        // {
+        //     path: '/promotions',
+        //     component: view('default'),
+        //     children: [
+        //         {
+        //             path: '',
+        //             component: view('promotions'),
+        //             meta: {
+        //                 pageName: 'Promotions',
+        //             },
+        //             name: 'promotions'
+        //         },
+        //         {
+        //             path: ':id',
+        //             component: view('promotion_details'),
+        //             meta: {
+        //                 pageName: 'Promotions',
+        //             },
+        //             name: 'promotionDetails',
+        //             props: true
+        //         }
+        //     ]
+        // },
+        // {
+        //     path: '/stores',
+        //     component: view('default'),
+        //     children: [
+        //         {   
+        //             path: '',
+        //             component: view('stores'),
+        //             meta: {
+        //                 pageName: 'Store Directory',
+        //             },
+        //             name: 'storeList'
+        //         },
+        //         {
+        //             path: ':id',
+        //             component: view('store_details'),
+        //             meta: {
+        //                 pageName: 'Store Details',
+        //             },
+        //             name: 'storeDetails',
+        //             props: true
+        //         }
+        //     ]
+        // },
         {
             path: '/404',
             name: '404',
