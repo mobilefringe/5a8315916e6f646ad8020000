@@ -64,14 +64,14 @@
                                 </li>
                                 <li id="dropDown2" @click="toggleSubMenu('dropDown2')" class="menu_item">Leagues & Lessons
                                     <ul :class="{ show_submenu: showSubMenu2 }">
-                                        <router-link tag="li" to="/pages/cambridge-leagues" class="submenu_item" exact>
-                                            <a>Leagues</a>
-                                        </router-link>
                                         <router-link tag="li" to="/pages/cambridge-lessons" class="submenu_item" exact>
                                             <a>Lessons</a>
                                         </router-link>
                                         <li>
-                                            <a href="https://thehockeyloft.ca/" target="_blank">Hockey Loft</a>
+                                            <a href="https://thehockeyloft.ca" target="_blank">The Hockey Loft</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://ice-tech.ca" target="_blank">Ice-Tech</a>
                                         </li>
                                     </ul>
                                 </li>
