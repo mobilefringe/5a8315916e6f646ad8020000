@@ -456,6 +456,7 @@ footer {
 .footer_management {
     .management_logo {
         max-width: 90px;
+        vertical-align: sub;
     }
 }
 .footer_privacy {
