@@ -444,6 +444,7 @@ footer {
         font-weight: 700;
         font-size: 12px;
         li {
+            padding: 0 10px;
             list-style-type: none;
         }
         a {
