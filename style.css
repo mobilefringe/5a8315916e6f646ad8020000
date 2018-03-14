@@ -244,7 +244,8 @@ header {
         // background: #D8D8D8;
         background: $primary;
         font-size: 11px;
-        color: #6E6E6E;
+        // color: #6E6E6E;
+        color: #FFF;
     }
     .language_select {
         font-size: 12px;
