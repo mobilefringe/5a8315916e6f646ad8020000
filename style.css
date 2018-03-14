@@ -373,7 +373,7 @@ footer {
             .fa {
                 font-size: 25px;
                 line-height: normal;
-                color: $secondary;
+                color: #FFF;
                 transition: color 0.3s ease;
                 &:hover {
                     color: $primary;
