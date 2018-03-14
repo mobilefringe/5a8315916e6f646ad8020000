@@ -289,7 +289,7 @@ header {
 #primary_nav ul .menu_item:hover {
 // 	background: rgba(0,0,0,0.8);
 	background: #0053b4;
-	color: $secondary;
+	color: #FFF;
 	cursor: pointer;
 }
 #primary_nav ul ul {
@@ -318,7 +318,7 @@ header {
 	line-height: 120%;
 	transition: color 0.3s ease;
 	&:hover {
-	    color: #EEE;
+	    color: $secondary;
 	}
 }
 #primary_nav ul .menu_item:hover > ul {
