@@ -592,11 +592,13 @@ footer {
     }
     .feature_item:first-child {
         padding-right: 20px;
-        width: calc(50% - 20px);
+        // width: calc(50% - 20px);
+        width: 50%;
     }
     .feature_item:last-child {
         padding-left: 20px;
-        width: calc(50% - 20px);
+        // width: calc(50% - 20px);
+         width: 50%;
         border-left: 1px solid #D8D8D8;
     }
 }
