@@ -967,7 +967,7 @@ footer {
 /* *** MESSAGES *** */
 .message_background {
     padding: 5px 0 3px 0;
-    background-color: $primary;
+    background-color: red;
     .message_content {
         font-weight: 500;
         font-size: 14px;
