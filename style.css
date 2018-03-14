@@ -189,10 +189,10 @@ header {
         .fa {
             font-size: 24px;
             line-height: normal;
-            color: #FFF;
+            color: $primary;
             transition: color 0.3s ease;
             &:hover {
-                color: $primary;
+                color: $secondary;
             }
         }
     }
