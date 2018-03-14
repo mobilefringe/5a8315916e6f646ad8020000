@@ -17,7 +17,8 @@
 }
 
 /* *** COLOURS *** */
-$primary: #8ed8f8;
+// $primary: #8ed8f8;
+$primary: #0b56b1;
 // $secondary: #003663;
 $secondary: #505050;
 
@@ -188,7 +189,7 @@ header {
         .fa {
             font-size: 24px;
             line-height: normal;
-            color: $secondary;
+            color: #FFF;
             transition: color 0.3s ease;
             &:hover {
                 color: $primary;
