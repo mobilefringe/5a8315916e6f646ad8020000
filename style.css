@@ -354,6 +354,10 @@ footer {
     .site_logo {
         width: 100px;
     }
+    .cambridge_logo {
+        min-width: 160px;
+        text-align: center;
+    }
     .footer_social {
         display: -webkit-box;
         display: -webkit-flex;
