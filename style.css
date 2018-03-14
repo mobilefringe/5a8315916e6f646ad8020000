@@ -1465,7 +1465,7 @@ footer {
         -ms-flex-direction: column;
         flex-direction: column;
         div {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             min-width: auto;
         }
     }
