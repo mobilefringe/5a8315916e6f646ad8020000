@@ -284,7 +284,8 @@ header {
     text-transform: uppercase;
 }
 #primary_nav ul .menu_item:hover {
-	background: rgba(0,0,0,0.8);
+// 	background: rgba(0,0,0,0.8);
+	background: #0053b4;
 	color: #FFF;
 	cursor: pointer;
 }
@@ -295,7 +296,8 @@ header {
 	top: 100%;
 	left: 50%;
 	transform: translate(-50%, 0%);
-	background: rgba(0,0,0,0.8);
+// 	background: rgba(0,0,0,0.8);
+	background: #0053b4;
 	font-size: 14px;
 	text-transform: none;
 }
