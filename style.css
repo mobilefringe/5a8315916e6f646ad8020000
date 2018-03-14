@@ -445,7 +445,7 @@ footer {
         margin: 0;
         margin-left: auto;
         margin-right: auto;
-        padding: 0;
+        padding: 5px 0;
         display: flex;
         justify-content: space-between;
         font-family: 'Maven Pro', sans-serif;
