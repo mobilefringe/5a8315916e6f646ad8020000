@@ -43,7 +43,7 @@ h2 {
     line-height: 41px;
 }
 a {
-    color: $secondary;
+    color: $accent;
     transition: color 0.3s ease;
     &:hover {
         color: $primary;
