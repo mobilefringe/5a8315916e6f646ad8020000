@@ -121,7 +121,7 @@ hr{
 header {
    padding-top: 20px;
    padding-bottom: 20px; 
-   background: #d2d2d2;
+   background: #EEE;
 }
 .logo_container {
     display: -webkit-box;
@@ -326,7 +326,7 @@ header {
 footer {
     margin-top: 20px;
     // background: #F0F0F0;
-    background: #d2d2d2;
+    background: #EEE;
 }
 .footer_logo {
     margin: 20px auto;
