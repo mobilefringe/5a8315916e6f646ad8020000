@@ -628,7 +628,7 @@ footer {
         flex-wrap: wrap;
     }
     .hours_container {
-        margin-right: 20px;
+        // margin-right: 20px;
         padding: 10px 0;
         // width: calc(80% - 10px);
         width: 100%;
