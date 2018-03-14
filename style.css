@@ -1554,15 +1554,10 @@ footer {
 }
 
 @media(max-width: 480px){
-    /* *** FOOTER *** */
-    .lamguage_select {
-        font-size: 1rem;
-    }
     /* *** HOME *** */
     .banner_image {
         height: 175px;
     }
-    
     /* *** EVENTS *** */
     .events_container {
         height: auto;
