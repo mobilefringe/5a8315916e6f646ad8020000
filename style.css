@@ -241,7 +241,8 @@ header {
         height: 25px;
         border-radius: 0px 5px 5px 0px;
         border: 1px solid #C9C9C9;
-        background: #D8D8D8;
+        // background: #D8D8D8;
+        background: $primary;
         font-size: 11px;
         color: #6E6E6E;
     }
