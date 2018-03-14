@@ -1460,6 +1460,10 @@ footer {
     .footer_logo {
         padding: 0 20px;
         max-width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         div {
             min-width: auto;
         }
