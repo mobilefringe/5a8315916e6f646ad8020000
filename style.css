@@ -240,7 +240,8 @@ header {
         width: 86px;
         height: 25px;
         border-radius: 0px 5px 5px 0px;
-        border: 1px solid #C9C9C9;
+        // border: 1px solid #C9C9C9;
+        border: 1px solid $primary;
         // background: #D8D8D8;
         background: $primary;
         font-size: 11px;
