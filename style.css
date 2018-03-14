@@ -19,8 +19,9 @@
 /* *** COLOURS *** */
 // $primary: #8ed8f8;
 $primary: #0b56b1;
+$secondary: #8ed8f8;
 // $secondary: #003663;
-$secondary: #505050;
+$accent: #505050;
 
 /* *** GENERAL STYLES *** */
 html { 
