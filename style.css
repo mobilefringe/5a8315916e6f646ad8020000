@@ -1389,7 +1389,7 @@ footer {
     }
     #primary_nav {
         width: 100vw;
-        height: calc(100vh - 136px);
+        height: calc(100vh - 106px);
         position: absolute;
         left: 0;
         right: 0;
