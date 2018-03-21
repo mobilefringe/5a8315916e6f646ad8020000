@@ -1438,6 +1438,9 @@ footer {
     	margin: 0 auto;
     	min-width: 150px;
     }
+    #primary_nav ul #dropDown2 {
+        width: 100%;
+    }
     .inside_header_background {
         margin-bottom: 20px;
         height: 100px;
