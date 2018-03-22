@@ -350,10 +350,10 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    div {
-        min-width: 160px;
-        text-align: center;
-    }
+    // div {
+    //     min-width: 160px;
+    //     text-align: center;
+    // }
     .site_logo {
         width: 130px;
     }
