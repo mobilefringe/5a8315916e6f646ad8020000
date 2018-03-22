@@ -360,6 +360,9 @@ footer {
     .cambridge_logo {
         text-align: center;
     }
+    .morguard_safety {
+        max-width: 100px;
+    }
 }
 .footer_menu {
     .footer_site_map {
