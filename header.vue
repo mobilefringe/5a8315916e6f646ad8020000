@@ -83,9 +83,9 @@
                                         <router-link tag="li" to="/pages/cambridge-cancellations" class="submenu_item" exact>
                                             <a>Cancellations</a>
                                         </router-link>
-                                        <router-link tag="li" to="/pages/cambridge-accessibility" class="submenu_item" exact>
-                                            <a>Accessibility</a>
-                                        </router-link>
+                                        <!--<router-link tag="li" to="/pages/cambridge-accessibility" class="submenu_item" exact>-->
+                                        <!--    <a>Accessibility</a>-->
+                                        <!--</router-link>-->
                                     </ul>
                                 </li>
                                 <li id="dropDown4" @click="toggleSubMenu('dropDown4')" class="menu_item">Centre Info
