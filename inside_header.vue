@@ -91,6 +91,8 @@
                         return "Privacy Policy"
                     } else if(this.$route.fullPath == "/pages/cambridge-terms-conditions") {
                         return "Terms & Conditions"
+                    } else if(this.$route.fullPath == "/pages/cambridge-contact-us") {
+                        return "Contact Us"
                     } else {
                         return this.$route.meta.pageName     
                     }
