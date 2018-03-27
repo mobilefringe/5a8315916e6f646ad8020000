@@ -359,6 +359,9 @@ footer {
     }
     .cambridge_logo {
         text-align: center;
+        img {
+            max-width: 98px;
+        }
     }
     .footer_management {
         text-align: right;
