@@ -17,7 +17,6 @@
             },
             created(){
                 this.loadData().then(response => {
-                    console.log(response)
                     if(response[0].data.messages.welcome[0] != undefined){
                         this.currentMessage = response[0].data.messages.welcome[0].messages[0];
                     } else {
