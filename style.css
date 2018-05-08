@@ -1395,6 +1395,9 @@ footer {
             margin-bottom: 30px;
             min-width: auto;
         }
+        div:first-child {
+            min-width: auto;
+        }
     }
     /* *** HOME *** */
     .home_banner_container .home_banner_wrapper {
