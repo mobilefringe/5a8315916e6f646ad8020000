@@ -391,7 +391,7 @@ footer {
 }
 .footer_management {
     .management_logo {
-        max-width: 130px;
+        max-width: 200px;
         vertical-align: sub;
     }
 }
