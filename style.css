@@ -134,6 +134,7 @@ header {
 }
 .site_logo {
     width: 138px;
+    float: left;
     img {
         max-width: 100%;
     }
