@@ -34,7 +34,7 @@
                                 <router-link :to="'/newsletter?email='+ newsletter_email" >
                                     <label for="newsletter_submit">
                                         <p class="accessibility">Submit</p></label>
-                                        <button id="newsletter_submit" class="newsletter_btn" type="submit" :value=''>{{$t("header.newsletter-subscribe")}}</button>
+                                        <button id="newsletter_submit" class="newsletter_btn" type="submit">{{$t("header.newsletter-subscribe")}}</button>
                                     
                                 </router-link>
                             </div>
