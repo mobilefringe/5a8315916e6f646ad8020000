@@ -28,11 +28,6 @@
                     </p>
                 </div>
             </div>
-            <!--<div class="stores_container">-->
-            <!--    <router-link tag="h3" to="/stores" exact>-->
-            <!--        <a>{{ $t("hours.stores-title") }}</a>-->
-            <!--    </router-link>-->
-            <!--</div>-->
             <div class="page_container">
                 <h1>{{ getPageName() }}</h1>
             </div>
