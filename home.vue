@@ -3,7 +3,7 @@
         <loading-spinner v-if="!dataLoaded"></loading-spinner>
         <transition name="fade">
             <div v-if="dataLoaded" v-cloak>
-                <h1 class="accessibility">Cambridge Ice Centre</h1>
+                <h1 class="accessibility">{{ property.name }}</h1>
                 <div class="home_banner_container" >
                     <slick ref="slick" :options="slickOptions">
                         <div v-if="homeBanners" v-for="banner in homeBanners">
