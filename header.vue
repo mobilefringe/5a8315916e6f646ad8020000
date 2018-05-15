@@ -32,10 +32,7 @@
                                 <label class="accessibility" for="header_newsletter">Enter Your Email</label>
                                 <input id="header_newsletter" class="newsletter_input" type="text" :placeholder='$t("header.newsletter-join")' v-model="newsletter_email"/>
                                 <router-link :to="'/newsletter?email='+ newsletter_email" >
-                                    <label for="newsletter_submit">
-                                        <p class="accessibility">Submit</p></label>
-                                        <button id="newsletter_submit" class="newsletter_btn" type="submit">{{$t("header.newsletter-subscribe")}}</button>
-                                    
+                                    <button id="newsletter_submit" class="newsletter_btn" type="submit">{{$t("header.newsletter-subscribe")}}</button>
                                 </router-link>
                             </div>
                         </div>
