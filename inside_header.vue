@@ -2,7 +2,7 @@
     <div class="inside_header_background">
         <div class="main_container">
             <div class="hours_container">
-                <p class="hours_title">{{ $t("hours.hours-title") }}</p>
+                <h3>{{ $t("hours.hours-title") }}</h3>
                 <div>
                     <p>
                         {{ $t("hours.hours-mon") }}:<br/>
