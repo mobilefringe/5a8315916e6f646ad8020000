@@ -594,10 +594,9 @@ footer {
         line-height: normal;
         color: #FFF;
     }
-    .hours_title {
+    h3 {
         margin: 0;
         font-size: 30px;
-        font-weight: normal;
         line-height: normal;
     }
     p {
