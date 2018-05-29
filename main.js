@@ -102,7 +102,6 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
             this.loadData().then(response => {
                 this.$store.dispatch("setDataLoaded", true);     
                 this.property.mm_host = this.property.mm_host.replace("http:", "");
-                    console.log(this.property)
             });
         },
         watch: {
