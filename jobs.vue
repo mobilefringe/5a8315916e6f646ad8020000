@@ -12,7 +12,6 @@
                 <div class="job_container" v-if="processedJobs.length >= 1" v-for="job in processedJobs">
                     <div v-if="job.store" class="job_image_container">
                         <img  v-lazy="job.store.store_front_url_abs" :alt="job.name" />
-                        
                     </div>
                     <div v-else class="job_image_container">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5afb34e36e6f646e4a5d0000/image/png/1521731428000/logo600x.png" :alt="job.name" />
