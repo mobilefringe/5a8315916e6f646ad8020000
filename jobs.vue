@@ -16,7 +16,7 @@
                     <router-link v-if="job.store" :to="{ name: 'storeDetails', params: { id: job.store.slug }}">
                         <span class="job_store_name">{{ job.store.name }}</span>
                     </router-link>
-                    <span v-else class="job_store_name">{{ prorperty.name }}</span>
+                    <span v-else class="job_store_name">{{ property.name }}</span>
                     <h3 class="job_name">{{ job.name }}</h3>
                     <p class="job_type">{{job.job_type}}</p>
                     <router-link :to="{ name: 'jobDetails', params: { id: job.slug }}">
