@@ -10,9 +10,12 @@
                     <p>Sorry, there are no job postings at this time. Please check back soon.</p>
                 </div>
                 <div class="job_container" v-if="processedJobs.length >= 1" v-for="job in processedJobs">
-                    <div class="job_image_container">
-                        <img v-if="job.store" v-lazy="job.store.store_front_url_abs" :alt="job.name" />
-                        <img v-else v-lazy="codecloud.cdn.speedyrails.net/sites/5afb34e36e6f646e4a5d0000/image/png/1521731428000/logo600x.png" :alt="job.name" />
+                    <div v-if="job.store" class="job_image_container">
+                        <img  v-lazy="job.store.store_front_url_abs" :alt="job.name" />
+                        
+                    </div>
+                    <div v-else class="job_image_container">
+                        <img src="//codecloud.cdn.speedyrails.net/sites/5afb34e36e6f646e4a5d0000/image/png/1521731428000/logo600x.png" :alt="job.name" />
                     </div>
                     <router-link v-if="job.store" :to="{ name: 'storeDetails', params: { id: job.store.slug }}">
                         <span class="job_store_name">{{ job.store.name }}</span>
