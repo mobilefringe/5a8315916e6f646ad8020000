@@ -107,6 +107,9 @@
                                         <router-link tag="li" to="/pages/cambridge-contact-us" class="submenu_item" exact>
                                             <a>Contact Us</a>
                                         </router-link>
+                                         <router-link tag="li" to="/pages/cambridge-code-of-conduct" class="submenu_item" exact>
+                                            <a>Code of Conduct</a>
+                                        </router-link>
                                     </ul>
                                 </li>
                             </ul>
