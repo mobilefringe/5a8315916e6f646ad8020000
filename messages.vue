@@ -1,5 +1,5 @@
 <template>
-    <div v-if="currentMessage" class="message_background">
+    <div v-if="property.description" class="message_background">
         <div class="main_container message_content">
             <!--<span> {{currentMessage.body }} </span>-->
             <span> {{ property.description }} </span> 
