@@ -70,7 +70,7 @@
                                             <a>Lessons</a>
                                         </router-link>
                                         <li>
-                                            <a href="https://thehockeyloft.ca" target="_blank">The Hockey Loft</a>
+                                            <a href="https://grandriverminorhockey.ca" target="_blank">Grand River Minor Hockey</a>
                                         </li>
                                         <li>
                                             <a href="https://ice-tech.ca" target="_blank">Ice-Tech</a>
