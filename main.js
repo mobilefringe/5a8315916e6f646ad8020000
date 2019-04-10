@@ -32,7 +32,7 @@ require.config({
         'vue-social-sharing': 'https://cdn.jsdelivr.net/npm/vue-social-sharing@2.3.3/dist/vue-social-sharing.min',
         'lightbox': 'https://5a1835f66e6f6422a6650000.codecloudapp.com/lightbox-mod',
         'vue-lazy-load': 'https://unpkg.com/vue-lazyload/vue-lazyload',
-        'vee-validate' : 'https://cdn.jsdelivr.net/npm/vee-validate@latest/dist/vee-validate',
+        'vee-validate' : 'https://cdn.jsdelivr.net/npm/vee-validate@2.1.4/dist/vee-validate',
         'vue-select': 'https://cdn.jsdelivr.net/npm/vue-select@2.3.0/dist/vue-select.min',
         // Dependencies for Map //
         'Raphael': 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min', //'http://mallmaverick.com/javascripts/mapsvg/raphael',
