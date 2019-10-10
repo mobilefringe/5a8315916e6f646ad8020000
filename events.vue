@@ -52,6 +52,7 @@
                 ]),
                 events: function events() {
                     var events = this.processedEvents;
+                    var vm = this;
                     console.log(events)
                     
                     var showEvents = [];
