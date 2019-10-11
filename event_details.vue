@@ -110,7 +110,29 @@
 				shareURL(slug) {
                     var share_url = "www.cambridgeicecentre.com/events/" + slug
                     return share_url
-                }
+                },
+                updatecurrentEvent (id) {
+                    this.currentEvent = this.findEventBySlug(id);
+                    
+                    var property_name = this.property.name;
+                    
+                    var vm = this;
+                    
+                    if (this.currentEvent != null || this.currentEvent != undefined){
+                        this.currentEvent.name_short = _.truncate(this.currentEvent.name, { 'length': 21, 'separator': ' ' });
+                        this.currentEvent.name_short_2 = _.truncate(this.currentEvent.name_2, { 'length': 21, 'separator': ' ' });
+            
+                        if(_.includes(this.currentEvent.image_url, 'missing')) {
+                            this.currentEvent.image_url = vm.property.default_logo_url
+                        }
+                        if(_.includes(this.currentEvent.promo_image2_url_abs, 'missing')) {
+                            this.currentEvent.promo_image2_url_abs = ""
+                        }
+                           
+                    } else {
+                        this.$router.replace({ path: '/'});
+                    }
+                },
 			}
 		});
 	});
