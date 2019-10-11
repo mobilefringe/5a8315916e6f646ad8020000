@@ -68,6 +68,11 @@
                             }
                             showEvents.push(value);
                         }
+                        
+                        if(_.includes(value.image_url, 'missing') {
+                            value.image_url = '//codecloud.cdn.speedyrails.net/sites/5afb34e36e6f646e4a5d0000/image/png/1521831709000/cambridgelogo@3x.png'
+                        })
+                        
                     });
                     var sortedEvents = _.orderBy(showEvents, function (o) { return o.end_date })
                     return sortedEvents
