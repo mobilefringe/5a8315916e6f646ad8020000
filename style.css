@@ -803,6 +803,12 @@ footer {
     }
 }
 
+.event_detail_img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
 /* *** HOURS *** */
 .hours_heading {
     margin: 0 0 15px 0;
