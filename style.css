@@ -806,7 +806,7 @@ footer {
 .event_detail_img_container {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 /* *** HOURS *** */
