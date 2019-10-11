@@ -744,6 +744,9 @@ footer {
         height: 280px;
         overflow: hidden;   
         float: left;
+        display:flex;
+        align-items: center;
+        padding: 50px;
         img {
             max-width: 100%;
         }
