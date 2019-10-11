@@ -69,6 +69,12 @@
 					}
 					console.log(this.currentEvent)
 					
+					if(this.currentEvent.image_url.includes('missing') {
+					    this.currentEvent.no_logo = true
+					}) else {
+					    this.currentEvent.no_logo = false
+					}
+	
 					this.dataLoaded = true;
 				}, error => {
 					console.error("Could not retrieve data from server. Please check internet connection and try again.");
