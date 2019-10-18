@@ -81,10 +81,10 @@
                 currentJob : function (){
                     if(this.currentJob != null) {
                         if (this.currentJob.store != null && this.currentJob.store != undefined && _.includes(this.currentJob.store.store_front_url_abs, 'missing')) {
-                            this.currentJob.store.store_front_url_abs = "https://placehold.it/400x400";
+                            this.currentJob.store.store_front_url_abs = "//codecloud.cdn.speedyrails.net/sites/5afb34e36e6f646e4a5d0000/image/png/1521831709000/cambridgelogo@3x.png";
                         } else if (this.currentJob.store == null || this.currentJob.store == undefined) {
                             this.currentJob.store = {};
-                            this.currentJob.store.store_front_url_abs =  "https://placehold.it/400x400";
+                            this.currentJob.store.store_front_url_abs =  "//codecloud.cdn.speedyrails.net/sites/5afb34e36e6f646e4a5d0000/image/png/1521831709000/cambridgelogo@3x.png";
                         }
                     }
                 }
