@@ -17,8 +17,8 @@
 }
 
 /* *** COLOURS *** */
-$primary:  #0b56b1;
-$secondary: #34b1c6; //#8ed8f8;
+$primary: #0b56b1;
+$secondary: #8ed8f8;
 $accent: #505050;
 
 /* *** GENERAL STYLES *** */
@@ -249,7 +249,7 @@ header {
         background: $primary;
         font-size: 11px;
         // color: #6E6E6E;
-        color: #000;
+        color: #FFF;
     }
     .language_select {
         font-size: 12px;
